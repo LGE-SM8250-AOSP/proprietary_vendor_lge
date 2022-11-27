@@ -163,18 +163,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/time-common/proprietary/vendor/etc/sensors/registry/registry/sensors_registry:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/registry/sensors_registry \
     vendor/lge/time-common/proprietary/vendor/etc/sensors/registry/registry/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/registry/sensors_settings \
     vendor/lge/time-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_uc.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b00 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_uc.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b01 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
-    vendor/lge/time-common/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUMICRON_MT128GASAO4U21_0107.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUMICRON_MT128GASAO4U21_0107.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUMICRON_MT128GASAO4U21_0108.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUMICRON_MT128GASAO4U21_0108.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KLUDG4U1EA-B0C1_0500.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KLUDG4U1EA-B0C1_0500.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KLUDG4UHDC-B0E1_0200.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KLUDG4UHDC-B0E1_0200.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KLUDG8V1EE-B0C1_0400.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KLUDG8V1EE-B0C1_0400.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KLUEG8UHDC-B0E1_0200.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KLUEG8UHDC-B0E1_0200.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KM2V8001CM-B707_2100.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KM2V8001CM-B707_2100.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSAMSUNG_KM8V8001JM-B813_2100.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSAMSUNG_KM8V8001JM-B813_2100.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSKHYNIX_H28S7Q302BMR_A002.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSKHYNIX_H28S7Q302BMR_A002.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSKHYNIX_H28U62301AMR_D003.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSKHYNIX_H28U62301AMR_D003.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSKHYNIX_H28U72301CMR_0004.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSKHYNIX_H28U72301CMR_0004.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUSKHYNIX_H28U74303AMR_D003.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUSKHYNIX_H28U74303AMR_D003.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUTOSHIBA_THGAF8G9T43BAIRB_0300.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUTOSHIBA_THGAF8G9T43BAIRB_0300.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUWDC_SDINDDH4-128G_1308.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUWDC_SDINDDH4-128G_1308.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUWDC_SDINDDH4-256G_1308.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUWDC_SDINDDH4-256G_1308.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUWDC_SDINEDK4-128G_1094.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUWDC_SDINEDK4-128G_1094.bin \
+    vendor/lge/time-common/proprietary/vendor/ffu/FFUWDC_SDINEDK4-256G_1088.bin:$(TARGET_COPY_OUT_VENDOR)/ffu/FFUWDC_SDINEDK4-256G_1088.bin \
     vendor/lge/time-common/proprietary/vendor/lib/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn557_fw.so \
     vendor/lge/time-common/proprietary/vendor/lib64/libpn557_fw_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw_64.so \
     vendor/lge/time-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
